@@ -5,7 +5,7 @@ import java.util.Stack;
 public class StackExample {
     public static void main(String[] args) {
         Stack<String> stk1 = new Stack<String>();
-
+//added some lines
         stk1.push("Mango");
         stk1.push("Apple");
         stk1.push("Guava");
@@ -17,7 +17,6 @@ public class StackExample {
 
         stk1.pop();
         stk1.pop();
-
         System.out.println("after 2 pops : "+stk1);
 
         System.out.println("traversing stk1");
