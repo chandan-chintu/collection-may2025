@@ -42,13 +42,13 @@ public class ArrayListExample {
         System.out.println("4th index element is : "+list1.get(4));
         System.out.println("5th index element is : "+list1.get(5));
 
+        //added some lines
         //size of the list1
         System.out.println("list1 size is : "+list1.size());
 
         //sorting the list
         Collections.sort(list1);
         System.out.println("list1 after sorting is :" +list1);
-
         // traverse the list1
         System.out.println("list1 traversal");
         for(Integer l1 : list1){
